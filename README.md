@@ -12,7 +12,7 @@ This is a replica of [react-loadable](https://github.com/thejameskyle/react-load
 if you are using `react-loadable/babel` this is not needed because sadly the plugin is baked inside the library.
 
 ```
-yarn add --dev https://github.com/Bamieh/react-make-async-babel-plugin
+yarn add --dev react-make-async-babel-plugin
 ```
 
 ## Babel Plugin

@@ -1,3 +1,4 @@
+/* hello world */
 export default function(settings) {
   const types = settings.types;
   const template = settings.template;
