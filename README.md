@@ -1,12 +1,19 @@
-# A customized Copy of react-loadable/babel plugin.
+# A customized Copy of react-loadable/babel plugin
 
 This is a replica of [react-loadable](https://github.com/thejameskyle/react-loadable)'s babel plugin.
 
 ## Notable Differences:
-1- Removed flow based personal preference.
-2- Added an option to specify the name of the imported library, defaults to "react-loadable".
-3- Split into a seprate repository as this is a development dependency, while the main library is not.
+1. Removed flow based personal preference.
+2. Added an option to specify the name of the imported library, defaults to "react-loadable".
+3. Split into a seprate repository as this is a development dependency, while the main library is not.
 
+## install
+
+if you are using `react-loadable/babel` this is not needed because sadly the plugin is baked inside the library.
+
+```
+yarn add 
+```
 
 ## Babel Plugin
 

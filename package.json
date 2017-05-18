@@ -1,0 +1,19 @@
+{
+  "name": "react-make-async-babel-plugin",
+  "version": "0.0.1",
+  "description": "A customized Copy of react-loadable/babel plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bamieh/react-make-async-babel-plugin.git"
+  },
+  "author": "Ahmad Bamieh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bamieh/react-make-async-babel-plugin/issues"
+  },
+  "homepage": "https://github.com/Bamieh/react-make-async-babel-plugin#readme"
+}
