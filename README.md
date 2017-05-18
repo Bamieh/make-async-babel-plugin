@@ -4,7 +4,7 @@ This is a replica of [react-loadable](https://github.com/thejameskyle/react-load
 
 ## Notable Differences:
 1. Removed flow based personal preference.
-2. Added an option to specify the name of the imported library, defaults to "react-loadable".
+2. Added an option `source` to specify the name of the imported library, defaults to "react-loadable".
 3. Split into a seprate repository as this is a development dependency, while the main library is not.
 
 ## install
@@ -65,7 +65,7 @@ plugin to your Babel config:
 
 - `server` (default: `true`) - When `true` adds `serverSideRequirePath` config.
 - `webpack` (default: `false`) - When `true` adds `webpackRequireWeakId` config.
-- `sourceMatch` (default: `react-loadable`) - match against the library name to add the properties to its configs object.
+- `source` (default: `react-loadable`) - match against the library name to add the properties to its configs object.
 
 
 

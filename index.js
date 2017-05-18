@@ -14,14 +14,14 @@ export default function(settings) {
         const opts = {
           server: true,
           webpack: false,
-          sourceMatch: 'react-loadable',
+          source: 'react-loadable',
           ...this.opts
         };
 
         if (!opts.server && !opts.webpack) return;
 
         const source = path.node.source.value;
-        if (source !== opts.sourceMatch) return;
+        if (source !== opts.source) return;
 
         const defaultSpecifier = path.get("specifiers").find(specifier => {
           return specifier.isImportDefaultSpecifier();
